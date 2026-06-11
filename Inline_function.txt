@@ -1,0 +1,3 @@
+Inline Functions
+An inline function is a powerful feature in C++ designed to optimize your program's performance. When a function is called, the system usually spends a tiny fraction of time setting up stack memories, jumping to the function location, and returning back. For short, simple functions, this "overhead" can actually take longer than executing the function itself.
+When you declare a function as inline, you request the compiler to replace the function call directly with the actual function code right inside the main() or calling function. This eliminates the function call overhead, making the program run faster.
